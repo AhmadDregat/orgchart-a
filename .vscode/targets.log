@@ -1,0 +1,419 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make.exe: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.2.1
+# Built for Windows32
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Wed May 18 12:04:54 2022
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# automatic
+?F = $(notdir $?)
+# makefile (from 'Makefile', line 9)
+VALGRIND_FLAGS = -v --leak-check=full --show-leak-kinds=all  --error-exitcode=99
+# default
+.SHELLFLAGS := -c
+# makefile
+MAKEFLAGS = pqrR
+# environment
+LC_CTYPE = en_US.UTF-8
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# makefile
+CURDIR := c:/Users/ahmad/Desktop/New folder/New folder/orgchart-a
+# makefile
+SHELL = C:/Program Files/Git/usr/bin/sh.exe
+# environment
+CONFIG_SITE = C:/Program Files/Git/etc/config.site
+# environment
+WINDIR = C:\WINDOWS
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = C:/Program Files/Microsoft VS Code/Code.exe
+# environment
+ONEDRIVE = C:\Users\ahmad\OneDrive
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+TMP = C:\Users\ahmad\AppData\Local\Temp
+# makefile (from 'Makefile', line 11)
+SOURCES = $(wildcard $(SOURCE_PATH)/*.cpp)
+# makefile (from 'Makefile', line 7)
+CXXFLAGS = -std=$(CXXVERSION) -Werror -Wsign-conversion -I$(SOURCE_PATH)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+INFOPATH = C:\Program Files\Git\usr\local\info;C:\Program Files\Git\usr\share\info;C:\Program Files\Git\usr\info;C:\Program Files\Git\share\info
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+MSYSTEM_CHOST = x86_64-w64-mingw32
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-2252c280-f1ea-4c82-b0aa-631976ac08b9-sock
+# environment
+VSCODE_CWD = C:\Users\ahmad\Desktop\New folder\New folder\orgchart-a
+# default
+MAKE_HOST := Windows32
+# environment
+PATH = C:\Users\ahmad\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\ahmad\bin;C:\Users\ahmad\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\ahmad\AppData\Local\Programs\Python\Python39;C:\Python39\Scripts;C:\Python39;C:\Users\ahmad\AppData\Local\Programs\Python\Python36\scripts;C:\Program Files\AdoptOpenJDK\jdk-8.0.242.08-hotspot\bin;C:\Program Files\AdoptOpenJDK\jre-8.0.242.08-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Microsoft VS Code\bin;C:\MinGW\bin;C:\Users\ahmad\opencv\build\x64\vc15\bin;C:\Users\ahmad\opencv\build\x64\vc14\bin;C:\Program Files\Git\cmd;C:\Program Files\MongoDB\Server\4.4\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\Users\ahmad\AppData\Local\Microsoft\WindowsApps;C:\Users\ahmad\AppData\Local\Tesseract-OCR\tesseract.exe;C:\Users\ahmad\AppData\Local\Microsoft\WindowsApps;C:\Program Files\nodejs\node.exe;C:\Program Files\MongoDB\Server\4.4\bin;C:\MinGW\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+TERM_PROGRAM_VERSION = 3.4.7
+# environment
+LC_ALL = C
+# environment
+CHOCOLATEYLASTPATHUPDATE = 132697347172375022
+# environment
+PROCESSOR_ARCHITECTURE = AMD64
+# environment
+USERPROFILE = C:\Users\ahmad
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environment
+MSYSTEM_CARCH = x86_64
+# environment
+EXEPATH = C:\Program Files\Git
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+PLINK_PROTOCOL = ssh
+# environment
+MSYSTEM_PREFIX = C:/Program Files/Git/mingw64
+# environment
+VSCODE_LOG_STACK = false
+# environment
+NUMBER_OF_PROCESSORS = 8
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+ORIGINAL_TEMP = C:/Users/ahmad/AppData/Local/Temp
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync load
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = needs-to-be-defined
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_4592_GYDQROPSQJHEZYPY
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+ORIGINAL_PATH = C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\ahmad\bin;C:\Users\ahmad\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\ahmad\AppData\Local\Programs\Python\Python39;C:\Python39\Scripts;C:\Python39;C:\Users\ahmad\AppData\Local\Programs\Python\Python36\scripts;C:\Program Files\AdoptOpenJDK\jdk-8.0.242.08-hotspot\bin;C:\Program Files\AdoptOpenJDK\jre-8.0.242.08-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Microsoft VS Code\bin;C:\MinGW\bin;C:\Users\ahmad\opencv\build\x64\vc15\bin;C:\Users\ahmad\opencv\build\x64\vc14\bin;C:\Program Files\Git\cmd;C:\Program Files\MongoDB\Server\4.4\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\Users\ahmad\AppData\Local\Microsoft\WindowsApps;C:\Users\ahmad\AppData\Local\Tesseract-OCR\tesseract.exe;C:\Users\ahmad\AppData\Local\Microsoft\WindowsApps;C:\Program Files\nodejs\node.exe;C:\Program Files\MongoDB\Server\4.4\bin;C:\MinGW\bin
+# environment
+COMPUTERNAME = AHMAD-DREGAT
+# environment
+PWD = C:/Users/ahmad/Desktop/New folder/New folder/orgchart-a
+# environment
+PROGRAMFILES = C:\Program Files
+# default
+.LOADED := 
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+PKG_CONFIG_PATH = C:\Program Files\Git\mingw64\lib\pkgconfig;C:\Program Files\Git\mingw64\share\pkgconfig
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = ahmad
+# environment
+PUBLIC = C:\Users\Public
+# environment
+MANPATH = C:\Program Files\Git\mingw64\local\man;C:\Program Files\Git\mingw64\share\man;C:\Program Files\Git\usr\local\man;C:\Program Files\Git\usr\share\man;C:\Program Files\Git\usr\man;C:\Program Files\Git\share\man
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = C:\Users\ahmad
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\ahmad\AppData\Roaming\Code\CachedData\da15b6fd3ef856477bf6f4fb29ba1b7af717770d
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+COMMONPROGRAMFILES = C:\Program Files\Common Files
+# environment
+LOGONSERVER = \\AHMAD-DREGAT
+# makefile (from 'Makefile', line 12)
+HEADERS = $(wildcard $(SOURCE_PATH)/*.hpp)
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = AHMAD-DREGAT
+# environment
+HOSTNAME = ahmad-dregat
+# makefile (from 'Makefile', line 6)
+OBJECT_PATH = objects
+# environment
+MAKELEVEL := 0
+# environment
+SSH_ASKPASS = C:/Program Files/Git/mingw64/libexec/git-core/git-gui--askpass
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 2
+# environment
+ACLOCAL_PATH = C:\Program Files\Git\mingw64\share\aclocal;C:\Program Files\Git\usr\share\aclocal
+# default
+MAKE_VERSION := 4.2.1
+# environment
+MINGW_CHOST = x86_64-w64-mingw32
+# makefile
+.DEFAULT_GOAL := run
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# environment
+LOCALAPPDATA = C:\Users\ahmad\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# environment
+TERM_PROGRAM = mintty
+# default
+.VARIABLES := 
+# environment
+TMPDIR = C:\Users\ahmad\AppData\Local\Temp
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 10, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\8c0f0b36bd50f0179cddf05746da3914-1.67.1-main-sock
+# environment
+HOMEPATH = \Users\ahmad
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+ORIGINAL_TMP = C:/Users/ahmad/AppData/Local/Temp
+# environment
+SYSTEMROOT = C:\WINDOWS
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# environment
+MINGW_PREFIX = C:/Program Files/Git/mingw64
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\ahmad\AppData\Roaming
+# environment
+TEMP = C:\Users\ahmad\AppData\Local\Temp
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# environment
+MSYSTEM = MINGW64
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# makefile (from 'Makefile', line 3)
+CXX = clang++-9 
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# makefile (from 'Makefile', line 5)
+SOURCE_PATH = sources
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 8e0a
+# default
+.INCLUDE_DIRS = .
+# default
+.RECIPEPREFIX := 
+# makefile (from 'Makefile', line 13)
+OBJECTS = $(subst sources/,objects/,$(subst .cpp,.o,$(SOURCES)))
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+TERM = xterm
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# makefile (from 'Makefile', line 4)
+CXXVERSION = c++2a
+# environment
+VSCODE_PID = 4592
+# makefile (from 'Makefile', line 8)
+TIDY_FLAGS = -extra-arg=-std=$(CXXVERSION) -checks=bugprone-*,clang-analyzer-*,cppcoreguidelines-*,performance-*,portability-*,readability-*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-cppcoreguidelines-owning-memory --warnings-as-errors=*
+# environment
+MINGW_PACKAGE_PREFIX = mingw-w64-x86_64
+# environment
+USERDOMAIN_ROAMINGPROFILE = AHMAD-DREGAT
+# variable set hash-table stats:
+# Load=136/1024=13%, Rehash=0, Collisions=19/170=11%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (key c:/Users/ahmad/Desktop/New folder/New folder/orgchart-a, mtime 1652864692): 15 files, no impossibilities.
+# sources (key c:/Users/ahmad/Desktop/New folder/New folder/orgchart-a/sources, mtime 1652864664): 5 files, no impossibilities.
+
+# 20 files, no impossibilities in 2 directories.
+
+# Implicit Rules
+
+%.o: %.cpp sources/OrgChart.hpp
+#  recipe to execute (from 'Makefile', line 32):
+	$(CXX) $(CXXFLAGS) --compile $< -o $@
+
+objects/%.o: sources/%.cpp sources/OrgChart.hpp
+#  recipe to execute (from 'Makefile', line 35):
+	$(CXX) $(CXXFLAGS) --compile $< -o $@
+
+# 2 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+demo: Demo.o objects/OrgChart.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 19):
+	$(CXX) $(CXXFLAGS) $^ -o $@
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-18 12:03:39
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Test.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+test: TestCounter.o Test.o objects/OrgChart.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 22):
+	$(CXX) $(CXXFLAGS) $^ -o $@
+
+# Not a target:
+TestCounter.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+objects/OrgChart.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+run: demo
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 16):
+	./$^
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 38):
+	rm -f $(OBJECTS) *.o test* demo*
+	rm -f StudentTest*.cpp
+
+tidy:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 25):
+	clang-tidy $(HEADERS) $(TIDY_FLAGS) --
+
+# Not a target:
+Demo.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+valgrind: demo test
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 28):
+	valgrind --tool=memcheck $(VALGRIND_FLAGS) ./demo 2>&1 | { egrep "lost| at " || true; }
+	valgrind --tool=memcheck $(VALGRIND_FLAGS) ./test 2>&1 | { egrep "lost| at " || true; }
+
+# files hash-table stats:
+# Load=14/1024=1%, Rehash=0, Collisions=2/33=6%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 35 / storage = 313 B / avg = 8 B
+# current buf: size = 8162 B / used = 313 B / count = 35 / avg = 8 B
+
+# strcache performance: lookups = 54 / hit rate = 35%
+# hash-table stats:
+# Load=35/8192=0%, Rehash=0, Collisions=2/54=4%
+# Finished Make data base on Wed May 18 12:04:54 2022
+
+ 
